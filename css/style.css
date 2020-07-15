@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@font-face { font-family: 'TmonMonsori'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff'); font-weight: normal; font-style: normal; }
 
 * {
   margin: 0;
@@ -140,7 +141,7 @@ body {
 }
 
 .gradient-btn {
-  background: linear-gradient(to right, #FF0844, #FFB199);
+  background-image: linear-gradient(to right, #FF0844, #FFB199);
   box-shadow: -5px 5px 20px 10px rgba(234, 51, 51, .41);
   z-index: 10;
   position: fixed;
@@ -247,29 +248,73 @@ body {
 
 .slider--text {
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   left: 10vw;
   z-index: 10;
   color: white;
 }
 
-.text1 {}
+.slider--text1 {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  left: 10vw;
+  z-index: 10;
+  color: white;
+}
 
-.text2 {}
+.quote--text {
+  position: absolute;
+  top: 65%;
+  right: 10vw;
+  transform: translateY(-50%);
+  z-index: 10;
+  color: white;
+}
 
-.text3 {}
+.quote--text1 {
+  position: absolute;
+  top: 35%;
+  right: 10vw;
+  transform: translateY(-50%);
+  z-index: 10;
+  color: white;
+}
 
-.text4 {}
+.text {
+  font-family: 'TmonMonsori', sans-serif;
+  color: #EFEFEF;
+}
+
+.text1 {
+  font-size: 31.25rem;
+  opacity: 0.7;
+  color: #D3D3D3;
+  position: absolute;
+  z-index: -1;
+}
+
+.text2 {
+  top: -80%;
+  left: -20%;
+}
+
+.text3 {
+  top: 30%;
+  right: -10%;
+}
 
 .slider--text__1 {
   font-size: 110px;
   color: #F8F8F8;
+  font-family: 'TmonMonsori', sans-serif;
 
 }
 
 .slider--text__2 {
   font-size: 140px;
+  font-family: 'TmonMonsori', sans-serif;
 }
 
 .text-style1 {
@@ -281,7 +326,7 @@ body {
 }
 
 .text-style3 {
-  color: #DB969A;
+  color: #E38086;
 }
 
 .slider--scroll-down {
@@ -310,11 +355,33 @@ body {
   font-size: 30px;
 }
 
+.main__style4 {
+  font-size: 70px;
+}
+
+.main__style5 {
+  margin-top: 7vh;
+}
+
+.main__style6 {
+  margin-top: 2vh;
+}
+
+.main__style7 {
+  margin-top: 1vh;
+  color: #959595;
+}
+
 .main1 {
   height: 100vh;
   width: 80vw;
   position: relative;
   padding: 20px 0;
+}
+
+.main2 {
+  height: 93vh;
+  padding: 0;
 }
 
 .card {
@@ -333,10 +400,64 @@ body {
   width: 400px;
   height: 600px;
   background-size: 100%;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
 }
 
 .card-like {
   width: 400px;
   height: 400px;
+  background-size: 100%;
+  margin-right: 86px;
+  flex: 0 0 auto;
+}
+
+.card-mycard {
+  width: 350px;
+  height: 350px;
+  background-size: 100%;
+}
+
+.card-wrapper {
+  display: flex;
+  background-size: 100%;
+  width: 80vw;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+.profile {
+  width: 350px;
+  height: 350px;
+  background-size: 100%;
+  border-radius: 300px;
+  margin-top: 3vh;
+}
+
+.profile--hr {
+  height: 3px;
+  background-color: #B8B8B8;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.progress--wrapper {
+  position: relative;
+  width: 100%;
+  height: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(220, 224, 227);
+  margin-top: 2rem;
+}
+
+.progress {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 80%;
+  border-radius: 1rem;
+  background-image: linear-gradient(to right, #FF0844, #FFB199);
+  /* background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 1.5rem 1.5rem;
+  background-color: #DA3131; */
 }
