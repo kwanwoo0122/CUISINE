@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: none;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.header {
+  position: fixed;
+  height: 7vh;
+  width: 100vw;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 20px #d9d9d9;
+  z-index: 100;
+}
+
+.nav--wrapper {
+  height: 100%;
+  width: 80vw;
+}
+
+.nav--logo {
+  width: 10vw;
+}
+
+.nav__text-style {
+  color: #707070;
+  font-size: 25px;
+  margin-right: 2rem;
+}
+
+.nav__button {
+  border-radius: 3.3rem;
+  border: 2px solid #DA3131;
+  color: #DA3131;
+  background-color: white;
+  font-size: 22px;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  outline: none;
+}
+
+.nav__button:hover {
+  box-shadow: 0 5px 12px 0 rgba(234, 51, 51, .41);
+  color: white;
+  background-color: #DA3131;
+}
+
+.main {
+  height: 100vh;
+  width: 80vw;
+  position: relative;
+}
+
+.main--text {
+  z-index: 50;
+}
+
+.main__text-style1 {
+  color: #DA3131;
+  font-size: 180px;
+}
+
+.main__text-style2 {
+  color: #CBCBCB;
+  font-size: 120px;
+}
+
+.main__text-style3 {
+  color: #E6E6E6;
+  font-size: 120px;
+}
+
+.main__text-style4 {
+  color: #CBCBCB;
+  font-size: 160px;
+}
+
+.main--img {
+  z-index: 50;
+  width: 50%;
+}
+
+.main__img-style {
+  width: 80%;
+}
+
+.gradient-btn {
+  background: linear-gradient(to right, #FF0844, #FFB199);
+  box-shadow: -5px 5px 20px 10px rgba(234, 51, 51, .41);
+  z-index: 10;
+  position: fixed;
+  opacity: 0.9;
+  transform: rotate(-45deg);
+  border-radius: 150px;
+}
+
+.btn1 {
+  width: 20vw;
+  height: 14vh;
+}
+
+.btn1-style {
+  top: 17%;
+  left: 7%;
+  transition: all 1s;
+}
+
+.btn2 {
+  width: 25vw;
+  height: 16vh;
+  border-radius: 150px;
+}
+
+.btn2-style {
+  top: 40%;
+  left: 3%;
+  transition: all 1s;
+}
+
+.btn3 {
+  width: 30vw;
+  height: 18vh;
+  border-radius: 150px;
+}
+
+.btn3-style {
+  top: 30%;
+  left: 17.5%;
+  transition: all 1s;
+}
+
+.btn4 {
+  width: 35vw;
+  height: 20vh;
+}
+
+.btn4-style {
+  top: 60%;
+  left: 13%;
+  transition: all 1s;
+}
+
+/* 이 이하는 main.html을 다루고 있습니다. */
+
+.container {
+  background-color: #FCFDFF;
+}
+
+.search {
+  border-radius: 3.3rem;
+  border: 2px solid #DA3131;
+  color: #DA3131;
+  background-color: white;
+  font-size: 22px;
+  padding: 6px;
+  width: 40vw;
+  outline: none;
+  padding-left: 30px;
+}
+
+.search::placeholder {
+  color: #DA3131;
+}
+
+.search::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.slider {
+  position: relative;
+  height: 100vh;
+}
+
+.carousel-container {
+  width: 100vw;
+  height: 800px;
+  margin-top: 11vh;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 100%;
+}
+
+.slider--img {
+  width: 100vw;
+  height: 800px;
+  position: relative;
+  cursor: pointer;
+}
+
+.slider--text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10vw;
+  z-index: 10;
+  color: white;
+}
+
+.text1 {}
+
+.text2 {}
+
+.text3 {}
+
+.text4 {}
+
+.slider--text__1 {
+  font-size: 110px;
+  color: #F8F8F8;
+
+}
+
+.slider--text__2 {
+  font-size: 140px;
+}
+
+.text-style1 {
+  color: #E8B742;
+}
+
+.text-style2 {
+  color: #862807;
+}
+
+.text-style3 {
+  color: #DB969A;
+}
+
+.slider--scroll-down {
+  position: absolute;
+  bottom: 120px;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.main__style {
+  color: #B8B8B8;
+  margin-top: 10vh;
+}
+
+.main__style1 {
+  font-size: 40px;
+}
+
+.main__style2 {
+  font-size: 25px;
+}
+
+.main__style3 {
+  font-size: 30px;
+}
+
+.main1 {
+  height: 100vh;
+  width: 80vw;
+  position: relative;
+  padding: 20px 0;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 3.3rem;
+  box-shadow: 5px 5px 20px #d9d9d9, -10px -10px 14px #fff;
+  z-index: 10;
+  margin: 30px 0;
+}
+
+.card:hover {
+  box-shadow: 2px 16px 36px rgba(21, 19, 19, .15), -5px -5px 10px #fff;
+}
+
+.card-daily {
+  width: 400px;
+  height: 600px;
+  background-size: 100%;
+}
+
+.card-like {
+  width: 400px;
+  height: 400px;
+}
