@@ -75,4 +75,4 @@ carouselSlide.addEventListener('transitionend', () => {
   }
 })
 
-// autoSlide();
+ autoSlide();
