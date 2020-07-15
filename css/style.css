@@ -109,11 +109,13 @@ body {
 .main__text-style1 {
   color: #DA3131;
   font-size: 180px;
+  text-shadow: #fff -1px -1px 12px, rgba(234, 51, 51, .41) 3px 3px 24px;
 }
 
 .main__text-style2 {
   color: #CBCBCB;
   font-size: 120px;
+  text-shadow: rgba(0, 0, 0, 0.15) 3px 3px 12px;
 }
 
 .main__text-style3 {
@@ -124,6 +126,8 @@ body {
 .main__text-style4 {
   color: #CBCBCB;
   font-size: 160px;
+  letter-spacing: 15px;
+  text-shadow: rgba(0, 0, 0, 0.15) 3px 3px 12px;
 }
 
 .main--img {
