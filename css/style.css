@@ -331,7 +331,7 @@ body {
 
 .slider--scroll-down {
   position: absolute;
-  bottom: 120px;
+  bottom: 50px;
   z-index: 10;
   left: 0;
   right: 0;
