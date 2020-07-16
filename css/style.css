@@ -246,7 +246,6 @@ body {
 .carousel-slide {
   display: flex;
   width: 100%;
-  transform: translate();
 }
 
 .slider--img {

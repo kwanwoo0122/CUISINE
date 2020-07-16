@@ -68,7 +68,6 @@ carouselSlide.addEventListener('transitionend', () => {
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
   }
   if (carouselImages[counter].classList[1] === 'first-clone') {
-    console.log(1);
     carouselSlide.style.transition = "none";
     counter = carouselImages.length - counter;
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
