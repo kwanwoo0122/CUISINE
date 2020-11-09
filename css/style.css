@@ -78,6 +78,7 @@ body {
   font-size: 1.563rem;
   /* 25px */
   margin-right: 2rem;
+  cursor: pointer;
 }
 
 .nav__button {
@@ -207,7 +208,7 @@ body {
 /* 이 이하는 main.html을 다루고 있습니다. */
 
 .container {
-  background-color: #FCFDFF;
+  background-color: #fafafa;
 }
 
 .search {
