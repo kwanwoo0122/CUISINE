@@ -374,6 +374,7 @@ body {
 .main__style4 {
   font-size: 4.375rem;
   /* 70px */
+  display: inline;
 }
 
 .main__style5 {
@@ -533,4 +534,19 @@ body {
   /* background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 1.5rem 1.5rem;
   background-color: #DA3131; */
+}
+
+.profileEdit {
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  bottom: 1rem;
+  left: 2rem;
+  width: 12rem;
+  height: 3.5rem;
+  font-size: 2.2rem;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  background-image: linear-gradient(to right, #FF0844, #FFB199);
 }
